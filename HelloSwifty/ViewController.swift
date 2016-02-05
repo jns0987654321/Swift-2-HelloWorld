@@ -5,6 +5,8 @@
 //  Created by Junior Samaroo on 2016-02-02.
 //  Copyright © 2016 Junior Samaroo. All rights reserved.
 //
+//  This is a commit test
+//
 
 import UIKit
 
