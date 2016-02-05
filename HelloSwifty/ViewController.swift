@@ -10,6 +10,12 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    // hold ctrl and drag logo here. Creates IBOutlet. Code reference to view. So it can be manipulated.
+    @IBOutlet weak var imgLogo: UIImageView!
+    
+    @IBOutlet weak var imgBg: UIImageView!
+    
+    @IBOutlet weak var doSomethingButton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -20,6 +26,11 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func doSomething(sender: AnyObject) {
+        imgBg.hidden = false
+        imgLogo.hidden = false
+        doSomethingButton.hidden = true
+    }
 
 }
 
